@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CORS Test</title>
+    <script>
+        function makeRequest() {
+            fetch('http://127.0.0.1:5000/')
+                .then(response => response.text())
+                .then(data => alert(data))
+                .catch(error => alert('Error: ' + error));
+        }
+    </script>
+</head>
+<body>
+    <h1>CORS Test</h1>
+    <button onclick="makeRequest()">Make Request</button>
+</body>
+</html>
