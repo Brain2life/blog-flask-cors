@@ -1,7 +1,7 @@
 # blog-flask-cors
 Example app in Flask that demonstrates the concept of Cross-Origin Resource Sharing (CORS)
 
-Article: []()
+Article: [Cross-Origin Resource Sharing (CORS) Explained](https://maxat-akbanov.com/cross-origin-resource-sharing-cors-explained)
 
 ## Prerequisites
 1. Python3
